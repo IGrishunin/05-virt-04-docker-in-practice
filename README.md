@@ -58,11 +58,14 @@ ab22712f221c   mysql:8        "docker-entrypoint.s…"   7 minutes ago   Up 7 mi
 ```
 
 Скрин SQL запроса с ВМ Яндекса
+
 <img width="686" height="657" alt="Задача4" src="https://github.com/user-attachments/assets/69a9ef2c-b51d-4d6d-9afd-859c589217de" />
 
 **Задача 6**
 Выполнил ```dive hashicorp/terraform:latest```
+
 <img width="1918" height="876" alt="Задача6" src="https://github.com/user-attachments/assets/2b13c0dc-5c4f-4ab6-9c2e-a58717dcd1d0" />
+
 Сохранил образ командой  ```docker save -o terraform.tar hashicorp/terraform:latest```
 Распаковал ```tar -xvf terraform.tar```
 Вывод
